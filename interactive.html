@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="APiguave">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="interactive.css">
+    
+    <title>Interactive Rating Component
+    </title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="card" id="card">
+            <section class="header">
+                <img src="Images/icon-star.svg" alt="star" class="star">
+                <h1 class="title">
+                    How did we do?
+                </h1>
+                <p class="paragraph">
+                    Please let us know how we did with your support request. 
+                    All feedback is appreciated to help us improve our offering! 
+                </p>
+            </section>
+            <section class="bottom">
+                <div class="range">
+                    <div class="number">1</div>
+                    <div class="number">2</span></div>
+                    <div class="number">3</div>
+                    <div class="number">4</div>
+                    <div class="number">5</div>
+                </div>
+                    <button class="submit" id="submit">
+                        Submit
+                    </button>
+            </section>
+        </div>
+        <div class="card card_thanks hidden" id="card_thanks">
+            <div class="thanks_image"><img src="Images/illustration-thank-you.svg" alt="thanks"></div>
+            <span class="info">
+                You selected <span id="select_range"></span> out of 5
+            </span>
+            <div>
+                <h1 class="title">
+                    Thank You!
+                </h1>
+
+                <p>
+                    We appreciate you taking the time to give a rating. If you ever
+                    need more support, don't hesitate to get in touch!
+                </p>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="Js/interactive.js"></script>
+
+</html>
